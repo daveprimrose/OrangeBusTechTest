@@ -18,8 +18,8 @@ namespace SkeletonCode.CurrencyConverter
 
 		public decimal Convert(string inputCurrency, string outputCurrency, decimal amount)
 		{
-		    Nullable<decimal> inputRate = null;
-		    Nullable<decimal> outputRate = null;
+		    decimal? inputRate = null;
+		    decimal? outputRate = null;
             
 		    foreach (var currency in CurrenyRates)
 		    {
